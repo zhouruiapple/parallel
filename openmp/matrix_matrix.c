@@ -39,7 +39,7 @@ int main ()
                 }
             }
         }
-    }
+
     double end = omp_get_wtime();
 
     printf("start time = %f\n",start);

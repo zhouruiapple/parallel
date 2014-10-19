@@ -38,7 +38,7 @@ int main ()
         for ( c = 0 ; c < m ; c++ ) {
             for ( d = 0 ; d < q ; d++ ) {
                 for ( k = 0 ; k < p ; k++ ){
-                    #pragma omp atomic
+                    //define atomic and wil be more slow  #pragma omp atomic
                     multiply[c][d]  += first[c][k] * second[k][d];
                 }
             }
