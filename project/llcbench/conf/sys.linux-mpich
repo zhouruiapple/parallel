@@ -23,4 +23,4 @@ MP_CFLAGS	= $(BB_CFLAGS)
 MP_LIBS		= -lrt
 MPIRUNCMD	= mpirun
 MPIRUNPROCS	= -np
-MPIRUNPOSTOPTS	= mpi_bench
+MPIRUNPOSTOPTS	= ./mpi_bench
